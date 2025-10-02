@@ -1,14 +1,14 @@
 # Event name
-name: ExampleEvent 2020
+name: New England Cryo-EM Meeting 2025
 
 # Event date, in free-text format
-date: February 30-31
+date: November 30-31 2025
 
 # Event location
-location: Building 01, Example University
+location: UMass Chan Medical School
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
-description_short: Student-run hackathon at EPFL, Switzerland
+description_short: New England Cryo-EM Meeting 2025
 description_long: |-
   This is an example event for this template!
 
@@ -17,7 +17,7 @@ description_long: |-
   No coding needed, just change the data!
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
-email: info at example dot org
+email: niko at grigorieff dot org
 
 # Social networks. Twitter is optional, but you really should have a Facebook page.
 facebook: ???

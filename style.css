@@ -89,6 +89,10 @@ tr {
   height: 3em;
 }
 
+.register {
+  background: #c8333c;
+  color: #ddd;
+}
 
 /* Colors */
 .tone-dark {

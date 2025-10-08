@@ -1,27 +1,27 @@
 # Event name
-name: New England Cryo-EM Meeting 2025
+# name: New England Cryo-EM Meeting 2025
 
 # Event date, in free-text format
-date: October 27, 2025
+# date: October 27, 2025
 
 # Event location
-location: UMass Chan Medical School
+# location: UMass Chan Medical School
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
-description_short: New England Cryo-EM Meeting 2025
-description_long: |-
-  This is an example event for this template!
-
-  It's there to show off the capabilities of the template.
-
-  No coding needed, just change the data!
-
+# description_short: New England Cryo-EM Meeting 2025
+# description_long: |-
+#  This is an example event for this template!
+#
+#  It's there to show off the capabilities of the template.
+#
+#  No coding needed, just change the data!
+#
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
-email: niko at grigorieff dot org
+# email: niko at grigorieff dot org
 
 # Social networks. Twitter is optional, but you really should have a Facebook page.
-facebook: ???
-twitter: ???
+# facebook: ???
+# twitter: ???
 
 # Accent color of the website
 color: '#6497b1'

@@ -42,9 +42,11 @@ layout: default
       </p>
     {% endif %}
 
-#    <p>
-#      Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
-#    </p>
+    {% if site.data.rules.text %}
+      <p>
+        Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
+      </p>
+    {% endif %}
   </div>
 </section>
 {% if site.data.schedule %}
@@ -140,29 +142,29 @@ layout: default
   </section>
 {% endif %}
 <section class="tone-dark">
-#  <h1>Committee</h1>
-#  <div class="items-container">
-#    {% for person in site.data.organizers.people %}
-#      <div class="item-small">
-#        <a class="person-link"
-#           href="{{ person.link }}"
-#           rel="noreferrer">
-#            <div class="person-container">
-#              <img class="person-image"
-#                   src="images/people/{{ person.first }} {{ person.last }}.jpg"
-#                   alt="Picture of {{ person.first }} {{ person.last }}">
-#              <div class="person-info">
-#                <span class="person-first">{{ person.first }}</span>
-#                <br>
-#                <span class="person-last">{{ person.last }}</span>
-#              </div>
-#            </div>
-#          </a>
-#        </div>
-#      {% endfor %}
-#    </div>
-#  </div>
   {% if site.data.organizers.group %}
+    <h1>Committee</h1>
+    <div class="items-container">
+      {% for person in site.data.organizers.people %}
+        <div class="item-small">
+          <a class="person-link"
+             href="{{ person.link }}"
+             rel="noreferrer">
+              <div class="person-container">
+                <img class="person-image"
+                     src="images/people/{{ person.first }} {{ person.last }}.jpg"
+                     alt="Picture of {{ person.first }} {{ person.last }}">
+                <div class="person-info">
+                  <span class="person-first">{{ person.first }}</span>
+                  <br>
+                  <span class="person-last">{{ person.last }}</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
     <p>
       {{ site.data.info.name }} is organized by {{ site.data.organizers.group.name }}, whose legal documents can be viewed
       {% if site.data.organizers.group.link %}
@@ -172,7 +174,4 @@ layout: default
       {% endif %}
     </p>
   {% endif %}
-#  <p>
-#    Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.
-#  </p>
 </section>

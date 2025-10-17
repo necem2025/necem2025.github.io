@@ -2,9 +2,26 @@
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
 # Use an empty string ('') for the day names if you do not want headers.
 
-Saturday:
-  '7:30-9:30': Breakfast
-  '9:30-10:00': Opening ceremony
-  '10:20-12:00': Sponsors Presentation
-  '12:30-13:30': Lunch
-  '18:30-19:30': Dinner
+Morning:
+  '8:00-8:55': Breakfast
+  '8:55-9:00': Welcome
+  '9:00-9:15': Daphne-Eleni Archonta
+  '9:15-9:30': Ximena Zottig
+  '9:30-9:45': Wangbiao Guo
+  '9:45-10:00': Abdallah Mohamed
+  '10:00-11:00': Coffee break
+  '11:00-11:15': Shuhui Wang
+  '11:15-11:30': Zahra Seraj
+  '11:30-11:45': Ruth Adafia
+  '11:45-12:00': Chen Wang
+
+Afternoon:
+  '12:00-2:00': Lunch and poster session
+  '2:00-2:15': Mira May
+  '2:15-2:30': Michelle Fry
+  '2:30-2:45': Chun-Ying Huang
+  '2:45-3:00': Jian Yue
+  '3:00-3:30': Coffee break
+  '3:30-3:45': Emmanuel Smith
+  '3:45-4:00': Patrick Guenther
+  '4:00-5:00': Pilar Cossio

@@ -2,7 +2,7 @@
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
 # Use an empty string ('') for the day names if you do not want headers.
 
-Morning:
+Morning - Paul J. DiMare Center:
   '8:00-8:55': Breakfast
   '8:55-9:00': Welcome
   <strong>9:00-10:00</strong>: <strong>Session 1 - Jewel Voyer (chair)</strong>
@@ -17,7 +17,7 @@ Morning:
   '11:30-11:45': Ruth Adafia (UMass Amherst)
   '11:45-12:00': Chen Wang (UMass Chan)
 
-Afternoon:
+Afternoon - Paul J. DiMare Center:
   <strong>12:00-2:00</strong>: <strong>Lunch and poster session</strong>
   <strong>2:00-3:00</strong>: <strong>Session 3 - Emily Sholi (chair)</strong>
   '2:00-2:15': Mira May (MIT)

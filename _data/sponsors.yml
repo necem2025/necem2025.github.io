@@ -12,6 +12,8 @@ tiers:
     size: 30
     sponsors:
       ThermoFisher: https://www.thermofisher.com
+      JEOL: https://www.jeolusa.com/
+      NanoSoft: https://www.nanosoftmaterials.com/
 
 #  Gold Sponsors:
 #    show_title: false

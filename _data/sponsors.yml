@@ -11,6 +11,7 @@ tiers:
     show_title: true
     size: 30
     sponsors:
+      <img src="https://necem2025.github.io/images/ThermoFisher.jpg" alt="ThermoFisher" style="width:100%;max-width:200px;height:auto"/>
       Example University: http://example.org
 
 #  Gold Sponsors:

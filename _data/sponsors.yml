@@ -1,20 +1,20 @@
 # Whether to display text about the prospectus.
 # See the ReadMe file for information about it.
-show_prospectus: true
+show_prospectus: false
 
 # Sponsors, organized by tiers.
 # Tiers have a size, and may have a background color (for e.g. gold/silver/bronze)
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
-  Partners:
+  Sponsors:
     show_title: true
     size: 30
     sponsors:
       Example University: http://example.org
 
   Gold Sponsors:
-    show_title: true
+    show_title: false
     color: rgba(212,175,55,0.12)
     size: 42
     sponsors:
@@ -22,7 +22,7 @@ tiers:
       Gold Example Two: http://example.org
 
   Silver Sponsors:
-    show_title: true
+    show_title: false
     color: rgba(192,192,192,0.18)
     size: 32
     sponsors:

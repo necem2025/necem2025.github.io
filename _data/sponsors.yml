@@ -11,7 +11,7 @@ tiers:
     show_title: true
     size: 30
     sponsors:
-      Thermo Fisher Scientific: https://necem2025.github.io/images/ThermoFisher.jpg
+      ThermoFisher: https://www.thermofisher.com
 
 #  Gold Sponsors:
 #    show_title: false
